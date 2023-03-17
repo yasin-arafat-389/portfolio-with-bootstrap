@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- Top banner -->
+  <div class="container-fluid top-banner">
+    <div class="row banner-row">
+      <div class="col-md-6 m-auto">
+        <div class="card card-bg text-center text-white">
+          <div class="card-body">
+            <h5 class="card-title cust-title">Yasin Arafat</h5>
+            <p class="card-text cust-desc">
+              Student | Web Developer | Freelancer
+            </p>
+            <button id="#" class="btn btn-primary">My Profile</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg nav-cust sticky-md-top">
+    <div class="container-fluid">
+      <a class="navbar-brand m-auto fs-0.7 fw-bold" href="#">Yasin Arafat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto ul-cust nav-pills" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#AboutMe"><button type="button" class="btn btn-info">About</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Education"><button type="button" class="btn btn-info">Education</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Project"><button type="button" class="btn btn-info">Projects</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Employment-History"><button type="button" class="btn btn-info">Employment History</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><button type="button" class="btn btn-info">Skills</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact"><button type="button" class="btn btn-info">Contact</button></a>
+          </li>
+        </ul>       
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Me section  -->
+  <div class="container-fluid about-cust" id="AboutMe">
+    <div class="row align-items-center">
+      <div class="col-md-8 cust-col-1 text-dark">
+        <h3>Yasin Arafat</h3>
+        <p>Student | Web Developer | Freelancer</p>
+        <p>
+          I am a very talented and passionate person in Full Stack Web Development with the proven know-how to combine creative and usability viewpoints resulting in world-class Web applications. I come from a technical background and enthusiast about technology, coding and cyber security.
+        </p>
+        <p>
+          To secure a position in IT world is my long-cherished  career objective. I want to be an engineer to materialize that dream. Accordingly, I am interested to join in any reputed company to gain confidence and fame using my potential in the field of “Web Development”, and express my innovative and creative skills for self and company growth.
+        </p>
+        <p>
+          I have extensive knowledge in HTML, CSS and JavaScript and popular stack for web development called MERN stack. Other than these technical knowledges, I have knowledges regarding industry standard UI/UX design, web animation techniques, modern problem solving. I also have knowledges about designing and developing websites in CMS like WordPress, theme customization, cPanel management etc. 
+        </p>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <img class="img-fluid cust-image" src="profile.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Education section  -->
+  <div class="container-fluid cust-edu" id="Education">
+    <div class="row justify-content-center">
+      <h1 class="text-center py-5" style="color: #000">Education</h1>
+      
+      <table class="table table-hover table-bordered border-primary">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Exam</th>
+            <th scope="col">Board</th>
+            <th scope="col">Result</th>
+            <th scope="col">Institute</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Secondary School Certificate (S.S.C)</td>
+            <td>Comilla</td>
+            <td>4.14 out of 5.</td>
+            <td>Ramgonj High School</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Higher Secondary Certificate (H.S.C)</td>
+            <td>Dhaka</td>
+            <td>3.33 out of 5.</td>
+            <td>Daffodil International College</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="4">Currently pursuing BSc in CSE from Daffodil International University</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- My Projects section  -->
+  <div class="container-fluid" style="background-color: #cafafe" id="Project">
+    <div class="row pb-5">
+      <h1 class="text-center py-5" style="color: #000">My Projects</h1>
+      <div class="col-md-3 pb-3">
+        <div class="card">
+          <img src="project-1.png" class="card-img-top" alt="" />
+          <div class="card-body" style="background-color: #b1a296">
+            <h5 class="card-title">Nuba International</h5>
+            <p class="card-text">
+              A classic sports E-magazine website. Built it from scratch for a client in Popular freelance marketplace Fiverr. I have built the entire website in popular CMS WordPress.
+            </p>
+            <a href="https://nubainternational.com/" target="_blank" class="btn btn-primary">Go to live project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pb-3">
+        <div class="card">
+          <img src="project-2.png" class="card-img-top" alt="" />
+          <div class="card-body" style="background-color: #b1a296">
+            <h5 class="card-title">Jhorna Mart</h5>
+            <p class="card-text">
+              A complete E-Commerce website with payment gateway integrated. Built from scratch for a local client. The entire project is built in popular CMS WordPress
+            </p>
+            <a href="https://jhornamart.com/" target="_blank" class="btn btn-primary">Go to live project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pb-3">
+        <div class="card">
+          <img src="project-3.png" class="card-img-top" alt="" />
+          <div class="card-body" style="background-color: #b1a296">
+            <h5 class="card-title">Crisop Grocery</h5>
+            <p class="card-text">
+              A complete business solution for grocery shop. Built it from scratch with WordPress. This project was requested by a foreign client. Learned a lot of things doing this project
+            </p>
+            <a href="https://crisp.nl/" target="_blank" class="btn btn-primary">Go to live project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pb-3">
+        <div class="card">
+          <img src="project-4.png" class="card-img-top" alt="" />
+          <div class="card-body" style="background-color: #b1a296">
+            <h5 class="card-title">AutoCare</h5>
+            <p class="card-text">
+              Business solution for Car Service, Car Washing, Denting and Painting. Build it from scratch with WordPress. Used premium themes and plugins. This one was a new experience 
+            </p>
+            <a href="#" class="btn btn-primary">Go to live project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Employment History section  -->
+  <div class="container pb-5" id="Employment-History">
+    <h1 class="text-center py-5" style="color: #000">Employment History</h1>
+    
+    <div class="employment-history">
+
+      <div class="card eh-card">
+      <div class="card-body border border-warning">
+        <h5 class="card-title">Web development with WordPress</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Fiverr Marketplace / 2021 - Current</h6>
+        <p class="card-text">Duties/Responsibilities:
+          Front-End development, theme customization, plugin setup, troubleshooting cPanel issues, redesigning existing website.
+          </p>
+          <a href="https://www.fiverr.com/yaseen_arafat" target="_blank" class="btn btn-primary">Visit Profile</a>
+      </div>
+    </div>
+
+    <div class="card eh-card">
+      <div class="card-body border border-warning">
+        <h5 class="card-title">Full Stack Web Development</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Jhorna Mart / 2022 - Present</h6>
+        <p class="card-text">Duties/Responsibilities:
+          Front-End and Back-End development, visual design, Server maintenance, Payment gateway integration, stock management.          
+          </p>
+          <a href="https://www.jhornamart.com/" target="_blank" class="btn btn-primary">Visit Company</a>
+      </div>
+    </div>
+
+    <div class="card eh-card">
+      <div class="card-body border border-warning">
+        <h5 class="card-title">Front End Developer</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Townhallbazar.com / 2021 - 2022</h6>
+        <p class="card-text">Duties/Responsibilities:
+          Front-End development, visual design, theme customization, plugin setup, troubleshooting cPanel issues, redesigning existing website.           
+          </p>
+          <a href="https://www.townhallbazar.com/" target="_blank" class="btn btn-primary">Visit Company</a>
+      </div>
+    </div>
+    </div>
+
+    </div>
+  </div>
+
+
+  <!-- Skills section  -->
+  <div class="container-fluid cust-edu" id="skills">
+    <div class="row justify-content-center">
+      <h1 class="text-center py-5" style="color: #000">My Skills</h1>
+      <h1 class="display-6" style="
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 30px;
+      text-decoration: underline;">My Skills in Front End Development</h1>
+      <div class="my-skills">
+
+        <div class="skill">
+          <div class="icon-circle">
+            <i class="fa-brands fa-html5" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">HTML</p>
+          <p class="h5">90%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar html-bar" style="width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="icon-circle css-circle">
+            <i class="fa-brands fa-css3" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">CSS</p>
+          <p class="h5">80%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar css-circle" style="width: 80%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="icon-circle jq-circle">
+            <i class="fa-solid fa-code" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">jQuery</p>
+          <p class="h5">50%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar jq-circle" style="width: 50%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="icon-circle react-circle">
+            <i class="fa-brands fa-react" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">React JS</p>
+          <p class="h5">70%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar react-circle" style="width: 70%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="icon-circle bs-circle">
+            <i class="fa-brands fa-bootstrap" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">Bootstrap</p>
+          <p class="h5">60%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bs-circle" style="width: 60%"></div>
+          </div>
+        </div>
+
+        <h1 class="display-6" style="
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         font-size: 30px;
+         font-weight: 400;
+         margin-bottom: 30px;
+         text-decoration: underline;">My Skills in Back End Development
+        </h1>
+
+        <div class="skill">
+          <div class="icon-circle node-circle">
+            <i class="fa-brands fa-node-js" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">Node JS</p>
+          <p class="h5">70%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar node-circle" style="width: 70%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="icon-circle django-circle">
+            <i class="fa-brands fa-python" style="font-size: 40px;"></i>
+          </div>
+          <p class="h5" style="margin-right: 20px;">Django</p>
+          <p class="h5">50%</p>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar django-circle" style="width: 50%"></div>
+          </div>
+        </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Contact section -->
+  <div class="container-fluid cust-contact pb-5" id="Contact">
+    <h1 class="text-center pt-5" style="color: #fff">It was a bumpy ride</h1>
+    <p class="text-center text-white">
+      But dreams have a tendency to play hard to catch
+    </p>
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <div class="box">
+          <h1 class="text-white text-center align-middle">29</h1>
+          <p class="text-white text-center mb-1">Failed Attempts</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="box">
+          <h1 class="text-white text-center align-middle">15</h1>
+          <p class="text-white text-center mb-1">Sleepless Nights</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="box">
+          <h1 class="text-white text-center align-middle">35</h1>
+          <p class="text-white text-center mb-1">Cups of coffee</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="box">
+          <h1 class="text-white text-center align-middle">1</h1>
+          <p class="text-white text-center mb-1">Big Success</p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="text-center pt-5" style="color: #fff">Get In Touch</h1>
+    <p class="text-center text-white">
+      I can be totally stalked online. Give me a shout out.
+    </p>
+
+    <h5 class="text-white container">Send me a message!</h5>
+    <div class="contact-form container">
+      <div class="row g-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <textarea class="form-control" placeholder="Your message" rows="3"></textarea>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-success mt-3 p-3">Send Message</button>
+    </div>
+  </div>
+
+  <!-- Footer section  -->
+  <div class="container-fluid cust-footer pb-5">
+    <p class="text-white text-center cust-text-footer">Work hard in silence, let your success be your noise.</p>
+    <p class="text-white text-center pb-3">Frank Ocean</p>
+    <p class="text-white text-center pb-2">@All rights reserved to Yasin Arafat</p>
+    <div class="row justify-content-center">
+
+      <div class="icon-box">
+        <a class="tdn" href="#"><i class="fa-brands fa-facebook footer-icon"></i></a>
+      </div>
+
+      <div class="icon-box">
+        <a class="tdn" href="#"><i class="fa-brands fa-twitter footer-icon"></i></a>
+      </div>
+
+      <div class="icon-box">
+        <a class="tdn" href="#"><i class="fa-brands fa-github footer-icon"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/4ac2f0268c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

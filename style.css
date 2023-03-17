@@ -1,0 +1,174 @@
+.top-banner {
+  height: 80vh;
+  background-color: gray;
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-row {
+  height: 80vh;
+}
+
+.card-bg {
+  background-color: #5a5a5a;
+}
+
+.cust-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.cust-desc {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.nav-cust {
+  background-color: #c5aa6a;
+}
+
+.ul-cust {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.about-cust {
+  background-color: #85dcb8;
+}
+
+.cust-col-1 {
+  padding: 60px 50px;
+}
+
+.cust-image {
+  width: 277px;
+  height: 277px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.cust-edu {
+  background-color: #fbeec1;
+  padding-bottom: 40px;
+}
+
+.circle-1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #8ee4af;
+  margin: auto;
+}
+
+.cust-contact {
+  background-color: #63666a;
+}
+
+.box {
+  border: 2px white solid;
+}
+
+.cust-footer {
+  background-color: #a9a9a9;
+}
+
+.cust-text-footer {
+  padding: 30px 0px 10px;
+  font-size: 1.3rem;
+}
+
+.icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footer-icon {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.icon-box:hover {
+  background-color: #000;
+}
+
+.icon-box:hover .footer-icon {
+  color: #fff;
+}
+
+.table {
+  width: 70%;
+  text-align: center;
+}
+
+.employment-history {
+  width: 100%;
+  display: flex;
+}
+
+.eh-card {
+  width: 40%;
+  margin: 0px 20px;
+}
+
+.skill {
+  width: 81%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fb503b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  width: 50%;
+  background-color: #000;
+}
+
+.html-bar {
+  background-color: #fb503b;
+}
+
+.css-circle {
+  background-color: #0d6efd;
+}
+
+.jq-circle {
+  background-color: violet;
+}
+
+.react-circle {
+  background-color: #5ed3f3;
+}
+
+.bs-circle {
+  background-color: #8712f7;
+}
+
+.node-circle {
+  background-color: #74ad5e;
+}
+
+.django-circle {
+  background-color: #fed748;
+}
