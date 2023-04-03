@@ -172,3 +172,26 @@
 .django-circle {
   background-color: #fed748;
 }
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 80px;
+  background-color: grey;
+}
+
+.testimonial-card {
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.cust-client-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
