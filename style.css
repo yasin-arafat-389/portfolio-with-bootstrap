@@ -10,6 +10,22 @@
   height: 80vh;
 }
 
+.cv-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: auto;
+  width: 200px;
+  padding: 8px 0px;
+  background-color: #0dcaf0;
+  border: 1px solid snow;
+  border-radius: 30px;
+}
+
+.cv-link:hover {
+  color: white;
+}
+
 .card-bg {
   background-color: #5a5a5a;
 }
