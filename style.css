@@ -203,6 +203,8 @@
   margin: auto;
   padding-top: 30px;
   padding-bottom: 20px;
+  background-image: linear-gradient(290deg, #43cea2, #2c3e50);
+  color: white;
 }
 
 .cust-client-image {
@@ -247,4 +249,8 @@
 .service-image {
   width: 100px;
   height: 100px;
+}
+
+.project-card {
+  background-image: linear-gradient(120deg, #eacda3, #48b1bf);
 }
